@@ -1,0 +1,21 @@
+/*=Header
+---------------------------------------------------------------------*/
+.site-header {
+  position: relative;
+  @include breakpoint(medium) {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+.logo {
+  font-size: 2rem;
+
+  a {
+    color: $link-color;
+    transition: all 0.5s ease-out;
+    &:hover {
+      color: $font-color;
+    }
+  }
+}

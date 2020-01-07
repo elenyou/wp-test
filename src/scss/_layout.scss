@@ -1,0 +1,22 @@
+/*=Layout
+---------------------------------------------------------------------*/
+
+// Container class
+// container.container--large
+.container {
+	@include xy-grid-container;
+
+	@each $breakpoint-name, $breakpoint in $breakpoints {
+		&--#{$breakpoint-name} {max-width: $breakpoint}
+	}
+	// @include m(full) {max-width: 100%};
+	&--full {@include max-width-100;}
+}
+
+.content-wrap {
+	width: 90%;
+	height: 100vh;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 1rem 0;
+}
