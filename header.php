@@ -21,7 +21,7 @@
 
 <body <?php body_class(); ?>>
 
-<header class="site-header container" role="banner">
+<header class="site-header" role="banner">
     <p class="logo"><a href="<?php echo home_url( '/' ); ?>"><?php bloginfo( 'name' ); ?></a></p>
 
     <nav class="nav-main-wrap" role="navigation">

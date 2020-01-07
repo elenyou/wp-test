@@ -15,8 +15,9 @@
 
 .content-wrap {
 	width: 90%;
-	height: 100vh;
-	max-width: 1400px;
+	height: 100%;
+	min-height: 100vh;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 1rem 0;
 }
